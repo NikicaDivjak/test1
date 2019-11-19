@@ -1,0 +1,57 @@
+@media only screen and (max-width: 1200px) {
+    .plan p  {min-height: 435px;}
+ 
+
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    
+    
+    
+
+    nav {
+        padding-top: 20px;
+        padding-bottom: 95px;
+    }
+    
+    .main-many {
+        display: none;
+        padding-top: 69px;
+        position: absolute;
+        background-color: #383838;
+        right: 35px;
+    }
+
+    .main-many li {
+        display: block;
+        float: none;
+        padding-bottom: 5px;
+    } 
+    
+    .main-many ul {
+        float: left;
+        margin-left: 350px;
+    }
+
+    .main-many li a {
+        border: none;
+    }
+
+
+    .mobile-many {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 30;
+        position: relative;
+    }
+
+}
+@media only screen and (max-width: 767px) {
+    .col { width: 100%; }
+    .plan p {min-height:auto;} 
+}
+
+
+@media only screen and (max-width: 480px) {}
+
